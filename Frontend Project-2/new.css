@@ -1,0 +1,308 @@
+*{
+    cursor: pointer;
+}
+
+/* Main body */
+#body{
+    background-color: black;
+    background-color: #74c4fa;
+    /* background-color: orange; */
+    position: absolute;
+}
+/* Head */
+#head{
+    /* background-color: red; */
+    position: relative;
+}
+#logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-image: url('images/WhatsApp\ Image\ 2023-12-17\ at\ 18.32.07_4d1facb8.jpg');
+    background-size: 100px;
+    background-position: center;
+}
+#brand{
+    position: relative;
+    top: -20px;
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#searchbar{
+    border-radius: 15px;
+    position: relative;
+    top: -20px;
+    left: 63px;
+    border-color: white;
+    font-weight: bold;
+}
+::placeholder {
+    color: #5DADE2;
+    font-size: large;
+    padding-left: 10px;
+}
+
+/* Options */
+#options{
+    width: 75px;
+    height: 500px;
+    /* background-color: red; */
+    position: absolute;
+}
+
+/* User - 1 */
+#user1{
+    width: 250px;
+    height: 505px;
+    background-color:rgb(255, 255, 24);
+    outline: 4px solid white;
+    border-radius: 5px 25px;
+    position: absolute;
+    left: 100px;
+}
+
+#ap{
+    width: 55px;
+    height: 55px;
+    background-image: url('images/new.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    border-radius: 50%;
+    border: 4px solid #5DADE2;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    display: inline-block;
+    z-index: 2;
+}
+#an{
+    /* width: 150px; */
+    height: 30px;
+    background-color: #5DADE2;
+    border-radius: 0px 15px 15px 0px;
+    display: inline-block;
+    position: relative;
+    left: 60px;
+    top: 23px;
+}
+#admin{
+    margin-left: 17px;
+    margin-top: 3px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#songimg{
+    width: 210px;
+    height: 290px;
+    /* background-image: url('images/song1img.jpeg'); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 210px 290px;
+    margin-left: 20px;
+    margin-top: 25px;
+    border-radius: 10px;
+    border: 4px solid #5DADE2;
+}
+#audio{
+    background-color: green;
+}
+#songname{
+    width: 84%;
+    margin-left: 8%;
+    margin-top: 3px;
+    color: #5DADE2;
+    font-weight: bold;
+}
+#artist{
+    width: 84%;
+    margin-left: 8%;
+    margin-top: -3px;
+    color: #5DADE2;
+    font-size:12px;
+    font-weight: 600;
+
+}
+#move{
+    -webkit-appearance:none;
+    width: 84%;
+    height: 7px;
+    margin-top: -5px;
+    margin-left: 8%;
+    background: #5DADE2;
+    border-radius: 5px;
+}
+#move::-webkit-slider-thumb{
+    -webkit-appearance:none;
+    background: #5DADE2;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 4px solid white;
+    box-shadow: 0 5px 5px ;
+
+
+}
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.controls div{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    color: #5DADE2;
+    margin: 10px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 5px gray;
+}
+.controls div:nth-child(2){
+    width: 45px;
+    height: 45px;
+    background: #5DADE2;
+    color: white;
+
+}
+
+/* Main */
+#main{
+    width: 700px;
+    height: 505px;
+    outline: 4px solid white;
+    border-radius: 15px;
+    position: absolute;
+    left: 367px;
+}
+.lsong{
+    width: 90%;
+    height: 60px;
+    background-color: white;
+    margin-left: 5%;
+    margin-top: 9px;
+    border-radius: 40px;
+    display: flex;
+}
+.lsongimg{
+    width: 50px;
+    height: 50px;
+    /* background-color: red; */
+    /* background-image: url('images/new.jpg'); */
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    background-position: center;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    border-radius: 50%;
+    border: 2px solid #5DADE2;
+}
+.lsongname{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #5DADE2;
+    font-weight: bold;
+    font-size: large;
+}
+span{
+    font-weight: 400;
+}
+.i1{
+    background-image: url('images/song1img.jpeg');
+}
+.i2{
+    background-image: url('images/song2img.jpeg');
+}
+.i3{
+    background-image: url('images/song3img.jpeg');
+}
+.i4{
+    background-image: url('images/song4img.jpeg');
+}
+.i5{
+    background-image: url('images/song5img.jpeg');
+}
+.i6{
+    background-image: url('images/song6img.jpeg');
+}
+.i7{
+    background-image: url('images/song7img.jpeg');
+}
+
+/* User - 2 */
+#user2{
+    width: 250px;
+    height: 505px;
+    background-color: yellow;
+    border-radius: 15px;
+    outline: 4px solid white;
+
+    position: absolute;
+    right: 30px;
+}
+.x{
+    width: 100%;
+    height: 55px;
+    /* background-color: red; */
+    margin-top: 15px;
+}
+
+.fp{
+    width: 55px;
+    height: 55px;
+    /* background-image: url('images/new.jpg'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 55px;
+    border-radius: 50%;
+    border: 4px solid #5DADE2;
+    position: relative;
+    left: 10px;
+    display: inline-block;
+    z-index: 2;
+}
+.fn{
+    /* width: 150px; */
+    height: 30px;
+    background-color: #5DADE2;
+    border-radius: 0px 15px 15px 0px;
+    display: inline-block;
+}
+.friend{
+    margin-left: 17px;
+    margin-top: 3px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.fp1{
+    background-image:url('images/f2.jpg') ;
+}
+.fp2{
+    background-image: url('images/f1.jpeg');
+}
+.fp3{
+    background-image: url('images/f3.jpeg');
+}
+.fp4{
+    background-image: url('images/f4.jpeg');
+}
+.fp5{
+    background-image: url('images/f5.jpeg');
+}
+.fp6{
+    background-image: url('images/f6.jpg');
+}
+.fp7{
+    background-image: url('images/f7.jpeg');
+}
